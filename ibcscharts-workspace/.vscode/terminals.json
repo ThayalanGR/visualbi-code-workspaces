@@ -1,0 +1,51 @@
+{
+  "autorun": false,
+  "autoKill": true,
+  "terminals": [
+    {
+      "name": "ibcscharts",
+      "cwd": "../../ibcscharts",
+      "open": true,
+      "onlyMultiple": true,
+      "command": "npm run dev"
+    },
+    {
+      "name": "IBCSCharts",
+      "cwd": "../../PowerBI/IBCSCharts",
+      "open": true,
+      "onlyMultiple": true,
+      "command": "npm run dev"
+    },
+
+    {
+      "name": "Git push all",
+      "commands": [
+        "git -C ../../ibcscharts push --all",
+        "git -C ../../PowerBI/IBCSCharts push --all",
+        "exit"
+      ],
+      "onlySingle": true,
+      "open": true
+    },
+    {
+      "name": "Git pull upstream Refactor",
+      "commands": [
+        "git -C ../../ibcscharts pull upstream CodeRefactor",
+        "git -C ../../PowerBI/IBCSCharts pull upstream IBCSChartsRefactor",
+        "exit"
+      ],
+      "onlySingle": true,
+      "open": true
+    },
+    {
+      "name": "Npm install",
+      "commands": [
+        "npm ci --prefix ../../ibcscharts || npm install --prefix ../../ibcscharts",
+        "npm ci --prefix ../../PowerBI/IBCSCharts || npm install --prefix ../../PowerBI/IBCSCharts",
+        "exit"
+      ],
+      "onlySingle": true,
+      "open": true
+    }
+  ]
+}

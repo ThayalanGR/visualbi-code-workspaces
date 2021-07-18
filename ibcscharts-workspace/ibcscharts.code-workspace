@@ -1,0 +1,19 @@
+{
+  "folders": [
+    {
+      "name": "ibcscharts-workspace",
+      "path": "."
+    },
+    {
+      "name": "ibcscharts",
+      "path": "../../ibcscharts"
+    },
+    {
+      "name": "IBCSCharts",
+      "path": "../../PowerBI/IBCSCharts"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "ibcscharts"
+  }
+}
