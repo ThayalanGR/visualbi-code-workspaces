@@ -18,11 +18,10 @@
     },
 
     {
-      "name": "Git push all",
+      "name": "Git push origin all",
       "commands": [
-        "git -C ../../ibcscharts push --all",
-        "git -C ../../PowerBI/IBCSCharts push --all",
-        "exit"
+        "git -C ../../ibcscharts push origin --all",
+        "git -C ../../PowerBI/IBCSCharts push origin --all"
       ],
       "onlySingle": true,
       "open": true
@@ -32,6 +31,16 @@
       "commands": [
         "git -C ../../ibcscharts pull upstream CodeRefactor",
         "git -C ../../PowerBI/IBCSCharts pull upstream IBCSChartsRefactor",
+        "exit"
+      ],
+      "onlySingle": true,
+      "open": true
+    },
+    {
+      "name": "Git pull origin Refactor",
+      "commands": [
+        "git -C ../../ibcscharts pull origin CodeRefactor",
+        "git -C ../../PowerBI/IBCSCharts pull origin IBCSChartsRefactor",
         "exit"
       ],
       "onlySingle": true,
