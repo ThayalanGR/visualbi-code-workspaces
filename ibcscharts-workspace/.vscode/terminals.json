@@ -21,7 +21,8 @@
       "name": "Git push origin all",
       "commands": [
         "git -C ../../ibcscharts push origin --all",
-        "git -C ../../PowerBI/IBCSCharts push origin --all"
+        "git -C ../../PowerBI/IBCSCharts push origin --all",
+        "exit"
       ],
       "onlySingle": true,
       "open": true
