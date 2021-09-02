@@ -30,8 +30,8 @@
     {
       "name": "Git pull upstream Refactor",
       "commands": [
-        "git -C ../../ibcscharts pull upstream ft-performance-fix",
-        "git -C ../../PowerBI/IBCSCharts pull upstream ft-performance-fix",
+        "git -C ../../ibcscharts pull upstream development",
+        "git -C ../../PowerBI/IBCSCharts pull upstream Inforriver-Chart",
         "exit"
       ],
       "onlySingle": true,
@@ -40,8 +40,8 @@
     {
       "name": "Git pull origin Refactor",
       "commands": [
-        "git -C ../../ibcscharts pull origin ft-performance-fix",
-        "git -C ../../PowerBI/IBCSCharts pull origin ft-performance-fix",
+        "git -C ../../ibcscharts pull origin development",
+        "git -C ../../PowerBI/IBCSCharts pull origin Inforriver-Chart",
         "exit"
       ],
       "onlySingle": true,
