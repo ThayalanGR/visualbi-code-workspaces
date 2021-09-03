@@ -50,8 +50,8 @@
     {
       "name": "Npm install",
       "commands": [
-        "npm ci --prefix ../../ibcscharts || npm install --prefix ../../ibcscharts",
-        "npm ci --prefix ../../PowerBI/IBCSCharts || npm install --prefix ../../PowerBI/IBCSCharts",
+        "npm ci --prefix ../../ibcscharts -OR npm install --prefix ../../ibcscharts",
+        "npm ci --prefix ../../PowerBI/IBCSCharts -OR npm install --prefix ../../PowerBI/IBCSCharts",
         "exit"
       ],
       "onlySingle": true,
