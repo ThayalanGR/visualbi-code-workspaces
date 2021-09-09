@@ -28,7 +28,7 @@
       "open": true
     },
     {
-      "name": "Git pull upstream Refactor",
+      "name": "Git pull upstream Development",
       "commands": [
         "git -C ../../ibcscharts pull upstream development",
         "git -C ../../PowerBI/IBCSCharts pull upstream Inforiver-Chart",
@@ -38,10 +38,30 @@
       "open": true
     },
     {
-      "name": "Git pull origin Refactor",
+      "name": "Git pull origin Development",
       "commands": [
         "git -C ../../ibcscharts pull origin development",
         "git -C ../../PowerBI/IBCSCharts pull origin Inforiver-Chart",
+        "exit"
+      ],
+      "onlySingle": true,
+      "open": true
+    },
+    {
+      "name": "Git Checkout Development",
+      "commands": [
+        "git -C ../../ibcscharts checkout development",
+        "git -C ../../PowerBI/IBCSCharts checkout Inforiver-Chart",
+        "exit"
+      ],
+      "onlySingle": true,
+      "open": true
+    },
+    {
+      "name": "Git Checkout Matrix",
+      "commands": [
+        "git -C ../../ibcscharts checkout sm-matrix",
+        "git -C ../../PowerBI/IBCSCharts checkout sm-matrix",
         "exit"
       ],
       "onlySingle": true,
