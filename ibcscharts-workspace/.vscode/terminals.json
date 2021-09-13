@@ -11,7 +11,7 @@
     },
     {
       "name": "IBCSCharts",
-      "cwd": "../../PowerBI/IBCSCharts",
+      "cwd": "../../IRChartsPowerbi",
       "open": true,
       "onlyMultiple": true,
       "command": "npm run dev"
@@ -21,7 +21,7 @@
       "name": "Git push origin all",
       "commands": [
         "git -C ../../ibcscharts push origin --all",
-        "git -C ../../PowerBI/IBCSCharts push origin --all",
+        "git -C ../../IRChartsPowerbi push origin --all",
         "exit"
       ],
       "onlySingle": true,
@@ -31,7 +31,7 @@
       "name": "Git pull upstream Development",
       "commands": [
         "git -C ../../ibcscharts pull upstream development",
-        "git -C ../../PowerBI/IBCSCharts pull upstream Inforiver-Chart",
+        "git -C ../../IRChartsPowerbi pull upstream development",
         "exit"
       ],
       "onlySingle": true,
@@ -41,7 +41,7 @@
       "name": "Git pull origin Development",
       "commands": [
         "git -C ../../ibcscharts pull origin development",
-        "git -C ../../PowerBI/IBCSCharts pull origin Inforiver-Chart",
+        "git -C ../../IRChartsPowerbi pull origin development",
         "exit"
       ],
       "onlySingle": true,
@@ -51,7 +51,7 @@
       "name": "Git Checkout Development",
       "commands": [
         "git -C ../../ibcscharts checkout development",
-        "git -C ../../PowerBI/IBCSCharts checkout Inforiver-Chart",
+        "git -C ../../IRChartsPowerbi checkout development",
         "exit"
       ],
       "onlySingle": true,
@@ -61,7 +61,7 @@
       "name": "Git Checkout Matrix",
       "commands": [
         "git -C ../../ibcscharts checkout sm-matrix",
-        "git -C ../../PowerBI/IBCSCharts checkout sm-matrix",
+        "git -C ../../IRChartsPowerbi checkout sm-matrix",
         "exit"
       ],
       "onlySingle": true,
@@ -71,7 +71,7 @@
       "name": "Npm install",
       "commands": [
         "npm ci --prefix ../../ibcscharts -OR npm install --prefix ../../ibcscharts",
-        "npm ci --prefix ../../PowerBI/IBCSCharts -OR npm install --prefix ../../PowerBI/IBCSCharts",
+        "npm ci --prefix ../../IRChartsPowerbi -OR npm install --prefix ../../IRChartsPowerbi",
         "exit"
       ],
       "onlySingle": true,

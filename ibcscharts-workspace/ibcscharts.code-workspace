@@ -9,8 +9,8 @@
       "path": "../../ibcscharts"
     },
     {
-      "name": "IBCSCharts",
-      "path": "../../PowerBI/IBCSCharts"
+      "name": "IRChartsPowerbi",
+      "path": "../../IRChartsPowerbi"
     }
   ],
   "settings": {
