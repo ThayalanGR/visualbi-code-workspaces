@@ -7,14 +7,14 @@
       "cwd": "../../ibcscharts",
       "open": true,
       "onlyMultiple": true,
-      "command": "npm run dev:next"
+      "command": "npm run dev"
     },
     {
       "name": "IBCSCharts",
       "cwd": "../../IRChartsPowerbi",
       "open": true,
       "onlyMultiple": true,
-      "command": "npm run start:next"
+      "command": "npm run start"
     },
 
     {
