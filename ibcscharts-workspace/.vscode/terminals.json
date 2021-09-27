@@ -7,7 +7,7 @@
       "cwd": "../../ibcscharts",
       "open": true,
       "onlyMultiple": true,
-      "command": "npm run dev:next"
+      "command": "npm run dev"
     },
     {
       "name": "IBCSCharts",
@@ -16,7 +16,6 @@
       "onlyMultiple": true,
       "command": "npm run start:next"
     },
-
     {
       "name": "Git push origin all",
       "commands": [
