@@ -57,10 +57,10 @@
       "open": true
     },
     {
-      "name": "Git Checkout Matrix",
+      "name": "Git Checkout Matrix Refactor",
       "commands": [
-        "git -C ../../ibcscharts checkout sm-matrix",
-        "git -C ../../IRChartsPowerbi checkout sm-matrix",
+        "git -C ../../ibcscharts checkout matrix-refactor",
+        "git -C ../../IRChartsPowerbi checkout matrix-refactor",
         "exit"
       ],
       "onlySingle": true,
