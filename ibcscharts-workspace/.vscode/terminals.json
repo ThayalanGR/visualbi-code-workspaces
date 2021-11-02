@@ -57,10 +57,10 @@
       "open": true
     },
     {
-      "name": "Git pull origin matrix-refactor",
+      "name": "Git pull origin matrix-refactor-iteration-2",
       "commands": [
-        "git -C ../../ibcscharts pull origin matrix-refactor",
-        "git -C ../../IRChartsPowerbi pull origin matrix-refactor",
+        "git -C ../../ibcscharts pull origin matrix-refactor-iteration-2",
+        "git -C ../../IRChartsPowerbi pull origin matrix-refactor-iteration-2",
         "exit"
       ],
       "onlySingle": true,
@@ -77,10 +77,10 @@
       "open": true
     },
     {
-      "name": "Git Checkout Matrix Refactor",
+      "name": "Git Checkout Matrix Refactor Iterration 2",
       "commands": [
-        "git -C ../../ibcscharts checkout matrix-refactor",
-        "git -C ../../IRChartsPowerbi checkout matrix-refactor",
+        "git -C ../../ibcscharts checkout matrix-refactor-iteration-2",
+        "git -C ../../IRChartsPowerbi checkout matrix-refactor-iteration-2",
         "exit"
       ],
       "onlySingle": true,
