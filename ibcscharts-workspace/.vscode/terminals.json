@@ -47,6 +47,26 @@
       "open": true
     },
     {
+      "name": "Git pull upstream matrix-refactor",
+      "commands": [
+        "git -C ../../ibcscharts pull upstream matrix-refactor",
+        "git -C ../../IRChartsPowerbi pull upstream matrix-refactor",
+        "exit"
+      ],
+      "onlySingle": true,
+      "open": true
+    },
+    {
+      "name": "Git pull origin matrix-refactor",
+      "commands": [
+        "git -C ../../ibcscharts pull origin matrix-refactor",
+        "git -C ../../IRChartsPowerbi pull origin matrix-refactor",
+        "exit"
+      ],
+      "onlySingle": true,
+      "open": true
+    },
+    {
       "name": "Git Checkout Development",
       "commands": [
         "git -C ../../ibcscharts checkout development",
