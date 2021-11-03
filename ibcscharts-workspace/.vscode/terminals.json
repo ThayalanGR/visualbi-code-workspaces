@@ -10,14 +10,14 @@
       "command": "npm run dev"
     },
     {
-      "name": "IBCSCharts",
+      "name": "IRChartsPowerbi",
       "cwd": "../../IRChartsPowerbi",
       "open": true,
       "onlyMultiple": true,
       "command": "npm run start:next"
     },
     {
-      "name": "Git push origin all",
+      "name": "git push origin all",
       "commands": [
         "git -C ../../ibcscharts push origin --all",
         "git -C ../../IRChartsPowerbi push origin --all",
@@ -27,7 +27,7 @@
       "open": true
     },
     {
-      "name": "Git pull upstream Development",
+      "name": "git pull upstream development",
       "commands": [
         "git -C ../../ibcscharts pull upstream development",
         "git -C ../../IRChartsPowerbi pull upstream development",
@@ -37,7 +37,7 @@
       "open": true
     },
     {
-      "name": "Git pull origin Development",
+      "name": "git pull origin development",
       "commands": [
         "git -C ../../ibcscharts pull origin development",
         "git -C ../../IRChartsPowerbi pull origin development",
@@ -47,7 +47,7 @@
       "open": true
     },
     {
-      "name": "Git pull upstream matrix-refactor",
+      "name": "git pull upstream matrix-refactor",
       "commands": [
         "git -C ../../ibcscharts pull upstream matrix-refactor",
         "git -C ../../IRChartsPowerbi pull upstream matrix-refactor",
@@ -57,7 +57,7 @@
       "open": true
     },
     {
-      "name": "Git pull origin matrix-refactor-iteration-2",
+      "name": "git pull origin matrix-refactor-iteration-2",
       "commands": [
         "git -C ../../ibcscharts pull origin matrix-refactor-iteration-2",
         "git -C ../../IRChartsPowerbi pull origin matrix-refactor-iteration-2",
@@ -67,7 +67,7 @@
       "open": true
     },
     {
-      "name": "Git Checkout Development",
+      "name": "git checkout development",
       "commands": [
         "git -C ../../ibcscharts checkout development",
         "git -C ../../IRChartsPowerbi checkout development",
@@ -77,7 +77,7 @@
       "open": true
     },
     {
-      "name": "Git Checkout Matrix Refactor Iterration 2",
+      "name": "git checkout matrix-refactor-iteration-2",
       "commands": [
         "git -C ../../ibcscharts checkout matrix-refactor-iteration-2",
         "git -C ../../IRChartsPowerbi checkout matrix-refactor-iteration-2",
@@ -87,7 +87,7 @@
       "open": true
     },
     {
-      "name": "Npm install",
+      "name": "npm install",
       "commands": [
         "npm ci --prefix ../../ibcscharts -OR npm install --prefix ../../ibcscharts",
         "npm ci --prefix ../../IRChartsPowerbi -OR npm install --prefix ../../IRChartsPowerbi",
