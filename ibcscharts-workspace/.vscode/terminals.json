@@ -67,10 +67,10 @@
       "open": true
     },
     {
-      "name": "git pull akila matrix-refactor",
+      "name": "git pull akila matrix-refactor-iteration-2",
       "commands": [
-        "git -C ../../ibcscharts pull akila matrix-refactor",
-        "git -C ../../IRChartsPowerbi pull akila matrix-refactor",
+        "git -C ../../ibcscharts pull akila matrix-refactor-iteration-2",
+        "git -C ../../IRChartsPowerbi pull akila matrix-refactor-iteration-2",
         "exit"
       ],
       "onlySingle": true,
