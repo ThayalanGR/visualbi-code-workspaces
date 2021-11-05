@@ -67,6 +67,16 @@
       "open": true
     },
     {
+      "name": "git pull akila matrix-refactor",
+      "commands": [
+        "git -C ../../ibcscharts pull akila matrix-refactor",
+        "git -C ../../IRChartsPowerbi pull akila matrix-refactor",
+        "exit"
+      ],
+      "onlySingle": true,
+      "open": true
+    },
+    {
       "name": "git checkout development",
       "commands": [
         "git -C ../../ibcscharts checkout development",
