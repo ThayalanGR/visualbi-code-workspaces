@@ -77,6 +77,16 @@
       "open": true
     },
     {
+      "name": "git pull mani matrix-refactor",
+      "commands": [
+        "git -C ../../ibcscharts pull mani matrix-refactor",
+        "git -C ../../IRChartsPowerbi pull mani matrix-refactor",
+        "exit"
+      ],
+      "onlySingle": true,
+      "open": true
+    },
+    {
       "name": "git checkout development",
       "commands": [
         "git -C ../../ibcscharts checkout development",
