@@ -47,46 +47,6 @@
       "open": true
     },
     {
-      "name": "git pull upstream matrix-refactor",
-      "commands": [
-        "git -C ../../ibcscharts pull upstream matrix-refactor",
-        "git -C ../../IRChartsPowerbi pull upstream matrix-refactor",
-        "exit"
-      ],
-      "onlySingle": true,
-      "open": true
-    },
-    {
-      "name": "git pull origin matrix-refactor",
-      "commands": [
-        "git -C ../../ibcscharts pull origin matrix-refactor",
-        "git -C ../../IRChartsPowerbi pull origin matrix-refactor",
-        "exit"
-      ],
-      "onlySingle": true,
-      "open": true
-    },
-    {
-      "name": "git pull akila matrix-refactor-iteration-2",
-      "commands": [
-        "git -C ../../ibcscharts pull akila matrix-refactor-iteration-2",
-        "git -C ../../IRChartsPowerbi pull akila matrix-refactor-iteration-2",
-        "exit"
-      ],
-      "onlySingle": true,
-      "open": true
-    },
-    {
-      "name": "git pull mani matrix-refactor",
-      "commands": [
-        "git -C ../../ibcscharts pull mani matrix-refactor",
-        "git -C ../../IRChartsPowerbi pull mani matrix-refactor",
-        "exit"
-      ],
-      "onlySingle": true,
-      "open": true
-    },
-    {
       "name": "git checkout development",
       "commands": [
         "git -C ../../ibcscharts checkout development",
@@ -97,10 +57,10 @@
       "open": true
     },
     {
-      "name": "git checkout matrix-refactor",
+      "name": "git checkout development",
       "commands": [
-        "git -C ../../ibcscharts checkout matrix-refactor",
-        "git -C ../../IRChartsPowerbi checkout matrix-refactor",
+        "git -C ../../ibcscharts checkout development",
+        "git -C ../../IRChartsPowerbi checkout development",
         "exit"
       ],
       "onlySingle": true,
