@@ -14,7 +14,7 @@
       "cwd": "../../IRChartsPowerbi",
       "open": true,
       "onlyMultiple": true,
-      "command": "npm run start:next"
+      "command": "npm run start"
     },
     {
       "name": "git push origin all",
