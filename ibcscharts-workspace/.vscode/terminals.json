@@ -77,10 +77,10 @@
       "open": true
     },
     {
-      "name": "git checkout expanded-trellis",
+      "name": "git checkout null-suppression",
       "commands": [
-        "git -C ../../ibcscharts checkout expanded-trellis",
-        "git -C ../../IRChartsPowerbi checkout expanded-trellis",
+        "git -C ../../ibcscharts checkout null-suppression",
+        "git -C ../../IRChartsPowerbi checkout null-suppression",
         "exit"
       ],
       "onlySingle": true,
