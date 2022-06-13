@@ -87,6 +87,16 @@
       "open": true
     },
     {
+      "name": "git checkout expand-collapse",
+      "commands": [
+        "git -C ../../ibcscharts checkout expand-collapse",
+        "git -C ../../IRChartsPowerbi checkout expand-collapse",
+        "exit"
+      ],
+      "onlySingle": true,
+      "open": true
+    },
+    {
       "name": "git checkout master",
       "commands": [
         "git -C ../../ibcscharts checkout master",
