@@ -94,20 +94,10 @@
         "open": true
       },
       {
-        "name": "git checkout null-suppression",
+        "name": "git checkout measures-as-rows",
         "commands": [
-          "git -C ../../ibcscharts checkout null-suppression",
-          "git -C ../../IRChartsPowerbi checkout null-suppression",
-          "exit"
-        ],
-        "onlySingle": true,
-        "open": true
-      },
-      {
-        "name": "git checkout expand-collapse",
-        "commands": [
-          "git -C ../../ibcscharts checkout expand-collapse",
-          "git -C ../../IRChartsPowerbi checkout expand-collapse",
+          "git -C ../../ibcscharts checkout measures-as-rows",
+          "git -C ../../IRChartsPowerbi checkout measures-as-rows",
           "exit"
         ],
         "onlySingle": true,
