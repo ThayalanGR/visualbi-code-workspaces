@@ -114,6 +114,26 @@
         "open": true
       },
       {
+        "name": "git stash",
+        "commands": [
+          "git -C ../../ibcscharts stash",
+          "git -C ../../IRChartsPowerbi stash",
+          "exit"
+        ],
+        "onlySingle": true,
+        "open": true
+      },
+      {
+        "name": "git stash pop",
+        "commands": [
+          "git -C ../../ibcscharts stash pop",
+          "git -C ../../IRChartsPowerbi stash pop",
+          "exit"
+        ],
+        "onlySingle": true,
+        "open": true
+      },
+      {
         "name": "npm install",
         "commands": [
           "npm ci --prefix ../../ibcscharts -OR npm install --prefix ../../ibcscharts",
