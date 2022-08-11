@@ -74,6 +74,16 @@
         "open": true
       },
       {
+        "name": "git push origin development",
+        "commands": [
+          "git -C ../../ibcscharts push origin development",
+          "git -C ../../IRChartsPowerbi push origin development",
+          "exit"
+        ],
+        "onlySingle": true,
+        "open": true
+      },
+      {
         "name": "git pull origin master",
         "commands": [
           "git -C ../../ibcscharts pull origin master",
@@ -94,10 +104,10 @@
         "open": true
       },
       {
-        "name": "git checkout measures-as-rows",
+        "name": "git checkout issue-fixes",
         "commands": [
-          "git -C ../../ibcscharts checkout measures-as-rows",
-          "git -C ../../IRChartsPowerbi checkout measures-as-rows",
+          "git -C ../../ibcscharts checkout issue-fixes",
+          "git -C ../../IRChartsPowerbi checkout issue-fixes",
           "exit"
         ],
         "onlySingle": true,
