@@ -114,6 +114,16 @@
         "open": true
       },
       {
+        "name": "git checkout multi-chart-trellis",
+        "commands": [
+          "git -C ../../ibcscharts checkout multi-chart-trellis",
+          "git -C ../../IRChartsPowerbi checkout multi-chart-trellis",
+          "exit"
+        ],
+        "onlySingle": true,
+        "open": true
+      },
+      {
         "name": "git checkout master",
         "commands": [
           "git -C ../../ibcscharts checkout master",
