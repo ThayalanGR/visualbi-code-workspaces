@@ -46,11 +46,8 @@
       {
         "name": "git pull upstream development",
         "commands": [
-          "echo 'Pulling ibcscharts'",
-          "git -C ../../ibcscharts pull upstream development",
-          "echo 'Pulling IRChartsPowerbi'",
-          "git -C ../../IRChartsPowerbi pull upstream development",
-          "echo 'Done pulling'",
+          "git -C ../../ibcscharts pull upstream development && git -C ../../IRChartsPowerbi pull upstream development",
+          "exit"
         ],
         "onlySingle": true,
         "open": true
