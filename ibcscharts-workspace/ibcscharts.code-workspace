@@ -46,7 +46,8 @@
       {
         "name": "git pull upstream development",
         "commands": [
-          "git -C ../../ibcscharts pull upstream development && git -C ../../IRChartsPowerbi pull upstream development",
+          "git -C ../../ibcscharts pull upstream development --no-edit",
+          "git -C ../../IRChartsPowerbi pull upstream development --no-edit",
           "exit"
         ],
         "onlySingle": true,
@@ -55,8 +56,8 @@
       {
         "name": "git pull upstream master",
         "commands": [
-          "git -C ../../ibcscharts pull upstream master",
-          "git -C ../../IRChartsPowerbi pull upstream main",
+          "git -C ../../ibcscharts pull upstream master --no-edit",
+          "git -C ../../IRChartsPowerbi pull upstream main --no-edit",
           "exit"
         ],
         "onlySingle": true,
@@ -65,8 +66,8 @@
       {
         "name": "git pull origin development",
         "commands": [
-          "git -C ../../ibcscharts pull origin development",
-          "git -C ../../IRChartsPowerbi pull origin development",
+          "git -C ../../ibcscharts pull origin development --no-edit",
+          "git -C ../../IRChartsPowerbi pull origin development --no-edit",
           "exit"
         ],
         "onlySingle": true,
@@ -85,8 +86,8 @@
       {
         "name": "git pull origin master",
         "commands": [
-          "git -C ../../ibcscharts pull origin master",
-          "git -C ../../IRChartsPowerbi pull origin main",
+          "git -C ../../ibcscharts pull origin master --no-edit",
+          "git -C ../../IRChartsPowerbi pull origin main --no-edit",
           "exit"
         ],
         "onlySingle": true,
