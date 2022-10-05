@@ -124,6 +124,16 @@
         "open": true
       },
       {
+        "name": "git checkout trellis-resize",
+        "commands": [
+          "git -C ../../ibcscharts checkout trellis-resize",
+          "git -C ../../IRChartsPowerbi checkout trellis-resize",
+          "exit"
+        ],
+        "onlySingle": true,
+        "open": true
+      },
+      {
         "name": "git checkout master",
         "commands": [
           "git -C ../../ibcscharts checkout master",
