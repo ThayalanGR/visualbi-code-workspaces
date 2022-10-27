@@ -54,6 +54,16 @@
         "open": true
       },
       {
+        "name": "git pull upstream perf-fix",
+        "commands": [
+          "git -C ../../ibcscharts pull upstream perf-fix --no-edit",
+          // "git -C ../../IRChartsPowerbi pull upstream perf-fix --no-edit",
+          "exit"
+        ],
+        "onlySingle": true,
+        "open": true
+      },
+      {
         "name": "git pull upstream master",
         "commands": [
           "git -C ../../ibcscharts pull upstream master --no-edit",
