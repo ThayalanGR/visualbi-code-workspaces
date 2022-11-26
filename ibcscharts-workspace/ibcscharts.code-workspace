@@ -53,16 +53,16 @@
         "onlySingle": true,
         "open": true
       },
-      {
-        "name": "git pull upstream perf-fix",
-        "commands": [
-          "git -C ../../ibcscharts pull upstream perf-fix --no-edit",
-          // "git -C ../../IRChartsPowerbi pull upstream perf-fix --no-edit",
-          "exit"
-        ],
-        "onlySingle": true,
-        "open": true
-      },
+      // {
+      //   "name": "git pull upstream perf-poc",
+      //   "commands": [
+      //     "git -C ../../ibcscharts pull upstream perf-poc --no-edit",
+      //     "git -C ../../IRChartsPowerbi pull upstream perf-poc --no-edit",
+      //     "exit"
+      //   ],
+      //   "onlySingle": true,
+      //   "open": true
+      // },
       {
         "name": "git pull upstream master",
         "commands": [
@@ -138,6 +138,16 @@
         "commands": [
           "git -C ../../ibcscharts checkout trellis-resize",
           "git -C ../../IRChartsPowerbi checkout trellis-resize",
+          "exit"
+        ],
+        "onlySingle": true,
+        "open": true
+      },
+      {
+        "name": "git checkout perf-poc",
+        "commands": [
+          "git -C ../../ibcscharts checkout perf-poc",
+          "git -C ../../IRChartsPowerbi checkout perf-poc",
           "exit"
         ],
         "onlySingle": true,
