@@ -94,6 +94,16 @@
         "open": true
       },
       {
+        "name": "git push origin perf-poc",
+        "commands": [
+          "git -C ../../ibcscharts push origin perf-poc",
+          "git -C ../../IRChartsPowerbi push origin perf-poc",
+          "exit"
+        ],
+        "onlySingle": true,
+        "open": true
+      },
+      {
         "name": "git pull origin master",
         "commands": [
           "git -C ../../ibcscharts pull origin master --no-edit",
