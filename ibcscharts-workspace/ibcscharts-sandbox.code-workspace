@@ -1,0 +1,198 @@
+{
+  "folders": [
+    {
+      "name": "ibcscharts-workspace",
+      "path": "."
+    },
+    {
+      "name": "ibcscharts",
+      "path": "../../sandbox/ibcscharts"
+    },
+    {
+      "name": "IRChartsPowerbi",
+      "path": "../../sandbox/IRChartsPowerbi"
+    }
+  ],
+  "settings": {
+    "cSpell.enabled": false,
+    "liveServer.settings.multiRootWorkspaceName": "ibcscharts",
+    "terminals.autorun": false,
+    "terminals.autokill": true,
+    "terminals.terminals": [
+      {
+        "name": "ibcscharts",
+        "cwd": "../../sandbox/ibcscharts",
+        "open": true,
+        "onlyMultiple": true,
+        "command": "npm run dev"
+      },
+      {
+        "name": "IRChartsPowerbi",
+        "cwd": "../../sandbox/IRChartsPowerbi",
+        "open": true,
+        "onlyMultiple": true,
+        "command": "npm run start"
+      },
+      {
+        "name": "git push origin all",
+        "commands": [
+          "git -C ../../sandbox/ibcscharts push origin --all",
+          "git -C ../../sandbox/IRChartsPowerbi push origin --all",
+          "exit"
+        ],
+        "onlySingle": true,
+        "open": true
+      },
+      {
+        "name": "git pull upstream development",
+        "commands": [
+          "git -C ../../sandbox/ibcscharts pull upstream development --no-edit",
+          "git -C ../../sandbox/IRChartsPowerbi pull upstream development --no-edit",
+          "exit"
+        ],
+        "onlySingle": true,
+        "open": true
+      },
+      // {
+      //   "name": "git pull upstream perf-poc",
+      //   "commands": [
+      //     "git -C ../../sandbox/ibcscharts pull upstream perf-poc --no-edit",
+      //     "git -C ../../sandbox/IRChartsPowerbi pull upstream perf-poc --no-edit",
+      //     "exit"
+      //   ],
+      //   "onlySingle": true,
+      //   "open": true
+      // },
+      {
+        "name": "git pull upstream master",
+        "commands": [
+          "git -C ../../sandbox/ibcscharts pull upstream master --no-edit",
+          "git -C ../../sandbox/IRChartsPowerbi pull upstream main --no-edit",
+          "exit"
+        ],
+        "onlySingle": true,
+        "open": true
+      },
+      {
+        "name": "git pull origin development",
+        "commands": [
+          "git -C ../../sandbox/ibcscharts pull origin development --no-edit",
+          "git -C ../../sandbox/IRChartsPowerbi pull origin development --no-edit",
+          "exit"
+        ],
+        "onlySingle": true,
+        "open": true
+      },
+      {
+        "name": "git push origin development",
+        "commands": [
+          "git -C ../../sandbox/ibcscharts push origin development",
+          "git -C ../../sandbox/IRChartsPowerbi push origin development",
+          "exit"
+        ],
+        "onlySingle": true,
+        "open": true
+      },
+      {
+        "name": "git pull origin master",
+        "commands": [
+          "git -C ../../sandbox/ibcscharts pull origin master --no-edit",
+          "git -C ../../sandbox/IRChartsPowerbi pull origin main --no-edit",
+          "exit"
+        ],
+        "onlySingle": true,
+        "open": true
+      },
+      {
+        "name": "git checkout development",
+        "commands": [
+          "git -C ../../sandbox/ibcscharts checkout development",
+          "git -C ../../sandbox/IRChartsPowerbi checkout development",
+          "exit"
+        ],
+        "onlySingle": true,
+        "open": true
+      },
+      {
+        "name": "git checkout issue-fixes",
+        "commands": [
+          "git -C ../../sandbox/ibcscharts checkout issue-fixes",
+          "git -C ../../sandbox/IRChartsPowerbi checkout issue-fixes",
+          "exit"
+        ],
+        "onlySingle": true,
+        "open": true
+      },
+      {
+        "name": "git checkout multi-chart-type-trellis",
+        "commands": [
+          "git -C ../../sandbox/ibcscharts checkout multi-chart-type-trellis",
+          "git -C ../../sandbox/IRChartsPowerbi checkout multi-chart-type-trellis",
+          "exit"
+        ],
+        "onlySingle": true,
+        "open": true
+      },
+      {
+        "name": "git checkout trellis-resize",
+        "commands": [
+          "git -C ../../sandbox/ibcscharts checkout trellis-resize",
+          "git -C ../../sandbox/IRChartsPowerbi checkout trellis-resize",
+          "exit"
+        ],
+        "onlySingle": true,
+        "open": true
+      },
+      {
+        "name": "git checkout perf-poc",
+        "commands": [
+          "git -C ../../sandbox/ibcscharts checkout perf-poc",
+          "git -C ../../sandbox/IRChartsPowerbi checkout perf-poc",
+          "exit"
+        ],
+        "onlySingle": true,
+        "open": true
+      },
+      {
+        "name": "git checkout master",
+        "commands": [
+          "git -C ../../sandbox/ibcscharts checkout master",
+          "git -C ../../sandbox/IRChartsPowerbi checkout main",
+          "exit"
+        ],
+        "onlySingle": true,
+        "open": true
+      },
+      {
+        "name": "git stash",
+        "commands": [
+          "git -C ../../sandbox/ibcscharts stash",
+          "git -C ../../sandbox/IRChartsPowerbi stash",
+          "exit"
+        ],
+        "onlySingle": true,
+        "open": true
+      },
+      {
+        "name": "git stash pop",
+        "commands": [
+          "git -C ../../sandbox/ibcscharts stash pop",
+          "git -C ../../sandbox/IRChartsPowerbi stash pop",
+          "exit"
+        ],
+        "onlySingle": true,
+        "open": true
+      },
+      {
+        "name": "npm install",
+        "commands": [
+          "npm ci --prefix ../../sandbox/ibcscharts -OR npm install --prefix ../../sandbox/ibcscharts",
+          "npm ci --prefix ../../sandbox/IRChartsPowerbi -OR npm install --prefix ../../sandbox/IRChartsPowerbi",
+          "exit"
+        ],
+        "onlySingle": true,
+        "open": true
+      }
+    ]
+  }
+}
