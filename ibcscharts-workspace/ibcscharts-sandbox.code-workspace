@@ -94,6 +94,16 @@
         "open": true
       },
       {
+        "name": "git push origin ui-store",
+        "commands": [
+          "git -C ../../sandbox/ibcscharts push origin ui-store",
+          "git -C ../../sandbox/IRChartsPowerbi push origin ui-store",
+          "exit"
+        ],
+        "onlySingle": true,
+        "open": true
+      },
+      {
         "name": "git pull origin master",
         "commands": [
           "git -C ../../sandbox/ibcscharts pull origin master --no-edit",
