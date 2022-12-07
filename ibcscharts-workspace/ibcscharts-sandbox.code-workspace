@@ -154,6 +154,16 @@
         "open": true
       },
       {
+        "name": "git checkout ui-store",
+        "commands": [
+          "git -C ../../sandbox/ibcscharts checkout ui-store",
+          "git -C ../../sandbox/IRChartsPowerbi checkout ui-store",
+          "exit"
+        ],
+        "onlySingle": true,
+        "open": true
+      },
+      {
         "name": "git checkout master",
         "commands": [
           "git -C ../../sandbox/ibcscharts checkout master",
