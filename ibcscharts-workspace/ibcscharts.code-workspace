@@ -164,6 +164,16 @@
         "open": true
       },
       {
+        "name": "git checkout flat-group",
+        "commands": [
+          "git -C ../../ibcscharts checkout flat-group",
+          "git -C ../../IRChartsPowerbi checkout flat-group",
+          "exit"
+        ],
+        "onlySingle": true,
+        "open": true
+      },
+      {
         "name": "git checkout master",
         "commands": [
           "git -C ../../ibcscharts checkout master",
